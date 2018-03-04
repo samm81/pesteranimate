@@ -13,4 +13,9 @@ setup(
     ],
     py_modules=['pesteranimate'],
     python_requires='>=3.6',
+    entry_points={
+        'console_scripts': [
+            'pesteranimate=pesteranimate:animate',
+        ],
+    },
 )
