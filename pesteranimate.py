@@ -27,7 +27,7 @@ def animate_lines(speed):
         prevdt = dt
 
 def get_lines(userid):
-    url = 'https://5708f1d6.ngrok.io/users/{}'.format(userid)
+    url = 'https://3069f3eb.ngrok.io/users/{}'.format(userid)
     click.secho('connecting to pesterbot servers...', fg='blue')
     sleep(.6)
     r = requests.get(url, stream=True)
